@@ -10,12 +10,12 @@ Repozytorium nie zwiera żadnego kontenu chronionwgo prawami autorskimi
 REPOZYTORIUM POWSTAŁO TYLKO NA POTRZEBY WYGODY MOJEJ I UŻYTKOWNIKÓW
 AUTOR NIE PONOSI ŻADNEJ ODPOWIEDZIALNOŚCI ZA SZKODY WYNIKŁE Z UŻYTKOWANIA
 
-#adres do instalacji przez File Managera - repozytorium QWER
+# adres do instalacji przez File Managera - repozytorium QWER
 
 https://meserak86.github.io/QWERX/
 
 
-adres do instalacji przez File Managera - tylko QWER wizard BUILD
+# adres do instalacji przez File Managera - tylko QWER wizard BUILD
 
 https://meserak86.github.io/QWER/
 
