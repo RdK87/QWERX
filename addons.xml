@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	
 	<addon id="repository.qwer" name="[I][COLOR=red]QWER[/COLOR][/I] Repository" provider-name="QWER" version="0.0.1">
   <extension point="xbmc.addon.repository">
     <info>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml</info>
@@ -17,6 +16,8 @@
     <platform>all</platform>
   </extension>
 </addon>
+	
+	
 <addon id="incursion.repository" name="Incurison Repository" version="0.0.1" provider-name="NixGates">
 	<extension point="xbmc.addon.repository" name="Incursion Repository">
 		<info compressed="false">https://raw.githubusercontent.com/nixgates/Incursion/master/addons.xml</info>
