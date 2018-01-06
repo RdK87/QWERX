@@ -415,7 +415,7 @@ Please visit tvaddons.ag - addon releases forum for support.</description>
 
 
 
-<addon id="repository.ramic" name="Ramic Kodi Add-ons Repository" version="1.3.9" provider-name="Michal">
+<addon id="repository.ramic" name="Ramic Kodi Add-ons Repository - NIEBEZPIECZNE" version="1.3.9" provider-name="Michal">
     <extension point="xbmc.addon.repository" name="Ramic Kodi Add-ons Repository">
         <dir>
             <info compressed="false">http://cherrytv.one.pl/ramic/addons.xml</info>
