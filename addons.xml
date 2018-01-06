@@ -1024,5 +1024,103 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<website>xxx</website>
 	</extension>
 </addon>
+	
+<addon id="plugin.program.echowizard" 
+	     name="[COLOR yellowgreen]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]" 
+	     version="2.00.001"
+	     provider-name="Echo Coder">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLOR white]Twitter: @[/COLOR][COLOR yellowgreen]EchoCoder[/COLOR]</summary>
+    <description lang="en">[COLOR white]ECHO Wizard is a swiss army knife tool for Kodi. It gives you conrol over everything you need in one place. For support please contact @[/COLOR][COLOR yellowgreen]EchoCoder[/COLOR][COLOR white] on twitter.[/COLOR]</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/art/screenshots/screenshot-1.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-2.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-3.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-4.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-5.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-6.png</screenshot>
+    </assets>
+  </extension>
+</addon>
+<addon id="plugin.video.mrknowtv" name="MrknowTV"  version="2017.04.27.1" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MrknowTV - premium</summary>
+		<description lang="en">TV MrknowTV - only premium websites, Icons by Michal Morawski </description>
+		<disclaimer lang="en">Watch popular channels on your computer monitor, transmitting by users from all over the world.The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<summary lang="pl">MrknowTV - premium</summary>
+		<description lang="pl">Telewizja MrknowTV - tylko strony premium. Ikony przygotował Michal Morawski. Więcej informacji na stronie http;//filmkodi.com  </description>
+		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum>https://github.com/mrknow/filmkodi/issues</forum>
+		<source>http://filmkodi.com/repository/</source>
+		<website>http://filmkodi.com/en/wtyczka-milenium-fork-genesis/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.adryan" name="ADRYAN Repositorio" version="2.0.2" provider-name="adryan">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Adryan Repositorio Oficial">
+            <info compressed="false">https://raw.githubusercontent.com/adrianhn/adryanrepo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/adrianhn/adryanrepo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/adrianhn/adryanrepo/master/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositorio para AdryanList 2.0.2</summary>
+            <description>Repositorio que pertenece a AdryanList.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.Cypherslocker" name="[COLOR cornflowerblue]Cyphers locker[/COLOR]" version="1.0.2" provider-name="Project Cypher">
+	<extension point="xbmc.addon.repository" name="TheMegaRepo">
+		<info compressed="false">https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins/addons.xml</info>
+		<checksum>https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/CypherMediaGIT/CypherRepo/raw/master/cypherrepo/plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cypers Locker Repo - Home to Project Cypher</summary>
+		<description>Cypers Locker Repo - Home to Project Cypher.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.projectd" name="[COLOR red]Project D Repository[/COLOR]" version="1.0.3" provider-name="PD Sports">
+<extension point="xbmc.addon.repository" name="[COLOR red]Project D Repository[/COLOR]">
+		<info compressed="false">http://www.projectdaddon.com/plugins/addons.xml</info>
+		<checksum>http://www.projectdaddon.com/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.projectdaddon.com/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Official Project D - PD Sports Repository 1.0.3!</summary>
+		<description>Project D - PD Sports Repository 1.0.3!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 
 </addons>
