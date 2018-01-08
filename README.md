@@ -1,8 +1,8 @@
 # QWER REPOZYTORIUM
-# ZABRANIA SIĘ WYKOŻYSTWANIA W BUILDACH BEZ MOJEJ ZGODY (wystarczy poprosić)
+# ZABRANIA SIĘ WYKORZYSTYWANIA W BUILDACH BEZ MOJEJ ZGODY (wystarczy poprosić)
 
 Moje repozytorium to zbiór darmowych wtyczek, zawartość jest wytworem osób trzecich.
-Repozytorium nie zwiera żadnego kontenu chronionwgo prawami autorskimi
+Repozytorium nie zwiera żadnego kontenu chronionego prawami autorskimi
 (patrz na info każdej wtyczki/repo przed zainstalowaniem)
 REPOZYTORIUM POWSTAŁO TYLKO NA POTRZEBY WYGODY MOJEJ I UŻYTKOWNIKÓW
 TYLKO OD MOJEGO WIDZI MI SIĘ BĘDZIE ZALEŻEĆ JEGO ZAWARTOŚĆ 
