@@ -1,5 +1,5 @@
 # REPOZYTORIUM QWER 
-# ZABRANIA SIĘ WYKORZYSTYWANIA W BUILDACH BEZ MOJEJ ZGODY (wystarczy poprosić)
+# ZABRANIA SIĘ WYKORZYSTYWANIA W BUILDACH BEZ MOJEJ ZGODY (wystarczy poprosić w Issues)
 
 Moje repozytorium to zbiór darmowych wtyczek, zawartość jest wytworem osób trzecich.
 Repozytorium nie zwiera żadnego kontenu chronionego prawami autorskimi
