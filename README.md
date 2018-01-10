@@ -1,8 +1,13 @@
-# REPOZYTORIUM QWER 
+#  NIE OFICJALNE REPOZYTORIUM QWER DLA PROGRAMU KODI
+
 # ZABRANIA SIĘ WYKORZYSTYWANIA W BUILDACH BEZ MOJEJ ZGODY (wystarczy poprosić w Issues)
 
-Moje repozytorium to zbiór darmowych wtyczek (NIKT NIE MOŻE CI KAZAĆ ZA NIE ZAPŁACIĆ), 
-zawartość - wtyczki i repozytoria są wytworem osób trzecich.
+Nieoficjalne repozytorium dodatków wymaga w programie KODI włączenia możliwośći instalacji z nieznanych źródł. 
+Zapoznaj się z zawartą tam informacją!
+
+Moje repozytorium to zbiór darmowych wtyczek, jest przeznaczone wyłącznie na użytek prywatny i nie komercyjny
+(NIKT NIE MOŻE CI KAZAĆ ZA NIE ZAPŁACIĆ), zawartość - wtyczki i repozytoria są wytworem osób trzecich.
+Jeśli nie posiadasz uprawnień do zawartości udostępnianej przez wtyczki to nie masz powodu by je instalować.
 AUTOR REPOZYTORIUM NIE PONOSI ŻADNEJ ODPOWIEDZIALNOŚCI ZA SZKODY WYNIKŁE 
 Z UŻYTKOWANIA ELEMANTÓW W NIM ZAWARTYCH (INSTALUJESZ NA WŁĄSNĄ ODPOWIEDZIALNOŚĆ)
 Repozytorium nie zwiera żadnego kontenu chronionego prawami autorskimi.
