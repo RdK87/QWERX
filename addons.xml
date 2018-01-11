@@ -1800,5 +1800,25 @@ provider-name="detoyy" version="1.1.9">
         <source>https://github.com/MrSprigster/script.module.python.twitch</source>
     </extension>
 </addon>	
+<addon id="xbmc.core" version="0.1.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="0.1"/>
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+</addon>
+<addon id="xbmc.python" version="2.25.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="2.1.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="script" schema="script.xsd"/>
+  <extension-point id="subtitles" schema="script.xsd"/>
+  <extension-point id="lyrics" schema="script.xsd"/>
+  <extension-point id="weather" schema="script.xsd"/>
+  <extension-point id="library" schema="script.xsd"/>
+  <extension-point id="plugin" schema="pluginsource.xsd"/>
+  <extension-point id="context.item" schema="contextitem.xsd"/>
+</addon>
+
 	
 </addons>
