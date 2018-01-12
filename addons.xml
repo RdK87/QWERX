@@ -1537,19 +1537,26 @@ provider-name="detoyy" version="1.1.9">
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.youtube" name="YouTube" version="5.4.13" provider-name="h0d3nt3uf3l, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.4.5x" provider-name="bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
+	<extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/" />
 	<extension point="xbmc.addon.metadata">
         <news>
-- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
-- Added optional Watch Later custom playlist to Settings -> Folders
-- Added Maintenance section to Settings
-- Added 'Subtitle language(s) to download' selection to Settings -> General
+[fix] tighten regex for routing, resolving incorrect routing
+[add] mpeg-dash support for live content (requires inputstream.adaptive >= 2.0.12)
+[add] add route to update api keys
+[fix/upd] refactor subtitles ** subtitles setting will be reset
+[fix/upd] add My Subscriptions (Filtered) to dual login requirements
+[fix/upd] only show Browse Channels when logged in
+[upd] Greek strings [Twilight0]
+[upd] Polish strings [Etharr]
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -1564,7 +1571,7 @@ provider-name="detoyy" version="1.1.9">
 		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
         <description lang="hu">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
         <summary lang="es">Plugin para YouTube</summary>
-        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
+        <description lang="es">YouTube es uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
         <summary lang="ru">Видеодополнение YouTube</summary>
         <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
         <summary lang="fr">Plugin pour YouTube</summary>
@@ -1577,14 +1584,14 @@ provider-name="detoyy" version="1.1.9">
         <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
         <summary lang="no">Tillegg for YouTube</summary>
         <description lang="no">YouTube er en av verdens største nettsider for videodeling.</description>
-        <disclaimer lang="en"></disclaimer>
+        <disclaimer lang="en">=v5.4.5 by Bromix</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=267160</forum>
 		<website>http://www.youtube.com</website>
 		<email>ytplugin at datanet dot ws</email>
-		<source>https://github.com/Kolifanes/plugin.video.youtube</source>
+		<source>https://github.com/jdf76/plugin.video.youtube</source>
 	</extension>
 </addon>
 <addon id="script.module.addon.common" 
