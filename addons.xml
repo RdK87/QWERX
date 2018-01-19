@@ -1848,7 +1848,7 @@ provider-name="detoyy" version="1.1.9">
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.metahandler" />
-		<import addon="script.pair" optional="true" />
+		<import addon="script.pair" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="plugin.video.playlistLoader" optional="true" />
 		<import addon="plugin.program.super.favourites" optional="true" />
