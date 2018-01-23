@@ -1892,17 +1892,47 @@ provider-name="detoyy" version="1.1.9">
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.01.19" provider-name="MrUnknow" >
+<addon id="script.fanfilm.metadata" version="1.0.4" name="FanFilm Metadata" provider-name="fanfilm">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the fanfilm Addon</summary>
+		<description>Metadata for fanfilm are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.18" provider-name="Eldorado, tknorris, tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+		<import addon="script.module.pydevd" version="4.4.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.01.23" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.metahandler" />
-		<import addon="script.pair" />
+		<import addon="script.pair" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="plugin.video.playlistLoader" optional="true" />
 		<import addon="plugin.program.super.favourites" optional="true" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.specto.media" />
+		<import addon="script.fanfilm.metadata" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -1913,14 +1943,14 @@ provider-name="detoyy" version="1.1.9">
 		<description lang="pl">  Wtyczka została odnowiona przez Cherry TEAM. 
 		Dodany Playlist Loader pod dowiązanie TV Player. 
 		Utworzenie folderu \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 spowoduje dowiązanie go do przejścia FanFilm SKontent. 
-		Utworzenie folderu FanFilm2 w SuperFolder spowoduje dowiązanie go do przejścia My Folder.</description>
+		Utworzenie folderu FanFilm2 w SuperFolder spowoduje dowiązanie go do przejścia My Folder. Poprawiony TRAKT,</description>
 		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
 		</disclaimer>
 		<summary lang="en">FanFilm</summary>
 		<description lang="en">Addon remastered by CHERRY TEAM. 
 		Playlist Lodaer added on TV Player. 
 		Making \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 will make shortcut to FanFilm SKontent. 
-		Making FanFilm2 folder in superfavorites will make shortcut to My Folder.</description>
+		Making FanFilm2 folder in superfavorites will make shortcut to My Folder. Repaired TRAKT</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
 		</disclaimer>
 		<forum>https://github.com/meserak86/QWERX/issues</forum>
@@ -1929,4 +1959,5 @@ provider-name="detoyy" version="1.1.9">
 		<platform>all</platform>
 	</extension>
 </addon>
+
 </addons>
