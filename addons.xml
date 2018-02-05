@@ -2200,6 +2200,147 @@ provider-name="detoyy" version="1.1.9">
     </extension>
 </addon>
 
+<addon id="plugin.video.football.today" name="Football Today" version="3.0.5" provider-name="lambda,jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="script.module.urlresolver" version="3.0.22"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.0.6" provider-name="IlluminatiTemple">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+	<extension point="xbmc.addon.repository" name="Illuminati">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+		    <info compressed="false">http://98476.theunjudged.com/Illuminati/addons.xml</info>
+		    <checksum>http://98476.theunjudged.com/Illuminati/addons.xml.md5</checksum>
+		    <datadir zip="true">http://98476.theunjudged.com/Illuminati/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	    </dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	    </dir>
+		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Home of 3rd party addons</summary>
+		<description lang="en">The developers do not own any content found within these addons. They are in no way affiliated with Kodi or XBMC.</description>
+            <platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.judgement" name="Judgement Repo" version="1.7" provider-name="Judgement">
+	<extension point="xbmc.addon.repository" name="Judgement">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">http://98476.theunjudged.com/Judgement/addons.xml</info>
+		<checksum>http://98476.theunjudged.com/Judgement/addons.xml.md5</checksum>
+		<datadir zip="true">http://98476.theunjudged.com/Judgement/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Judgement Repo</summary>
+		<description>Judgement Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="2.4" provider-name="Maverick TV">
+<extension point="xbmc.addon.repository" name="[COLOR lime]MaverickTV Repo[/COLOR]">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+	<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+
+		<info compressed="false">http://mavericktv.net/mavrepo/plugins/addons.xml</info>
+		<checksum>http://mavericktv.net/mavrepo/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://mavericktv.net/mavrepo/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The MaverickTV Repository v2.4</summary>
+		<description>The MaverickTV Repository for add-on and dependencies</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.metalchris" name="MetalChris' Repository" version="3.0.3" provider-name="MetalChris">
+    <extension point="xbmc.addon.repository" name="Official MetalChris Repository">
+        <info compressed="false">http://raw.github.com/MetalChris/repository.metalchris/master/addons.xml</info>
+        <checksum>http://raw.github.com/MetalChris/repository.metalchris/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://raw.github.com/MetalChris/repository.metalchris/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary>MetalChris' Kodi addons</summary>
+		<description>Support provided at forum.kodi.tv or via my github.  I will not provide support at TVaddons, or any other forum.  Please provide a full, unedited, debug log when requesting support.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="script.module.parsedom" name="Parsedom for xbmc plugins" provider-name="TheCollective" version="2.5.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Parsedom for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+        <license>GPLv3</license>
+        <platform>all</platform>
+        <email></email>
+        <website></website>
+        <forum>http://forum.xbmc.org/showthread.php?tid=116498</forum>
+        <source>https://github.com/HenrikDK/xbmc-common-plugin-functions</source>
+        <language></language>
+   </extension>
+</addon>
+<addon id="tvsupertuga.repository" name="[COLOR cyan]TV[/COLOR][COLOR red]supertuga[/COLOR].[COLOR limegreen]Repository[/COLOR]" version="0.0.9" provider-name="TVsupertuga">
+    <extension point="xbmc.addon.repository" name="TVsupertuga Repository">
+            <info compressed="false">http://tvsupertuga.xyz/tvsupertuga.repository/addons.xml</info>
+            <checksum>http://tvsupertuga.xyz/tvsupertuga.repository/addons.xml.md5</checksum>
+            <datadir zip="true">http://tvsupertuga.xyz/tvsupertuga.repository/instal/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="pt">TVsupertuga </summary>
+		<description lang="pt">rdftgyhu</description>
+		<forum>http://tvsupertuga.forum-gratuito.com/</forum>
+		<website>https://www.facebook.com/TVsupertuga.PT/</website>		
+        <platform>all</platform>
+    </extension>
+</addon>
 
 <addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.01.23" provider-name="MrUnknow" >
 	<requires>
