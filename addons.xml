@@ -1133,34 +1133,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>	
 
-<addon id="plugin.video.alltube" 
-	name=".[COLOR yellow]All[/COLOR].[COLOR red]Tube[/COLOR]" 
-provider-name="detoyy" version="1.5.22">
-    
-<requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        
-<import addon="script.module.urlresolver"  version="3.0.28"/>
 
- 
-<import addon="script.module.beautifulsoup4" version="4.3.1"/>
-<import addon="script.module.requests" version="1.1.0"/>   </requires>
- 
- <extension library="default.py" point="xbmc.python.pluginsource">
-
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-
-     <platform>all</platform>
-        <license>GPL 2.0</license>
-	<summary lang="en">Alltube.tv video plugin</summary>
-    <description lang="en">Plugin that lets you browse and play videos from alltube.tv</description>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-    
-    <language />
-  </extension>
-</addon>
 <addon id="script.module.beautifulsoup4"
        name="BeautifulSoup4"
        version="4.5.3"
@@ -1360,49 +1333,7 @@ provider-name="detoyy" version="1.5.22">
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.baje" 
-	name=".[COLOR yellow]Baje[/COLOR].[COLOR red]pl[/COLOR]" 
-provider-name="detoyy" version="1.1.9">
 
-    
-<requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        
-<import addon="script.module.urlresolver"  version="1.0.0"/>
-		
-<import addon="script.module.metahandler"  version="1.0.0"/>
- 
-   </requires>
- 
- <extension library="default.py" point="xbmc.python.pluginsource">
-
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-
-     <platform>all</platform>
-        <license>GPL 2.0</license>
-	<summary lang="en">Alltube.tv video plugin</summary>
-    <description lang="en">Plugin that lets you browse and play videos from baje.pl</description>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-    
-    <language />
-  </extension>
-</addon>
-<addon id="plugin.video.euro2012.tvp.pl" version="0.2.3" name="Euro2012.tvp.pl" provider-name="smuto">
-    <requires>
-        <import addon="xbmc.python" version="2.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary></summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
-</addon>
 <addon id="script.module.pydevd" name="pydevd" version="4.4.0" provider-name="Fabio Zadrozny, Paul Backhouse">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1458,45 +1389,6 @@ provider-name="detoyy" version="1.1.9">
     <summary lang="pl">Interaktywna platforma multimedialna.</summary>
     <description lang="en">Watch videos from www.ipla.pl</description>
     <description lang="pl">Ipla to największa telewizja internetowa w Polsce. Swoim widzom oferuje transmisje w wysokiej jakości, największą w Polsce legalną bazę treści, w tym tysiące odcinków seriali, programów rozrywkowych i informacyjnych, koncerty i najważniejsze wydarzenia sportowe, a także ponad tysiąc filmów pełnometrażowych. Dostęp do zasobów telewizji ipla mają użytkownicy różnych urządzeń dzięki aplikacjom ipla specjalnie do nich przystosowanym.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.pl-tv.tvnplayer.pl"
-       name="TVNPlayer"
-       version="1.3.6"
-       provider-name="smuto, sd-xbmc, xbmc-pl-tv">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.simplejson" version="2.0.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">http://tvnplayer.pl</summary>
-    <summary lang="pl">http://tvnplayer.pl</summary>
-    <description lang="en">tvn player</description>
-    <description lang="pl">Usługa tvn player jest dostępna na wielu platformach. Ciesz się oglądaniem ulubionych programów, filmów i seriali w każdym miejscu i o każdej porze!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.pl-tv.vod.tvp.pl"
-       name="Vod.tvp.pl"
-       version="1.0.17"
-       provider-name="xbmc-pl-tv, smuto, sd-xbmc">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.simplejson" version="2.0.10"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">VOD - Telewizja Polska SA</summary>
-    <description lang="en">VOD - Telewizja Polska SA</description>
-    <description lang="pl">Vod.tvp.pl to największa w internecie baza filmów fabularnych, dokumentalnych, seriali i audycji Telewizji Polskiej.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1732,47 +1624,6 @@ provider-name="detoyy" version="1.1.9">
   <extension-point id="library" schema="script.xsd"/>
   <extension-point id="plugin" schema="pluginsource.xsd"/>
   <extension-point id="context.item" schema="contextitem.xsd"/>
-</addon>
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="4.0.15" provider-name="UKTurk">
-
-  <requires>
-
-    <import addon="script.module.simplejson" version="3.3.0"/>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    
-    <import addon="script.video.F4mProxy" version="2.5.3"/>
-
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-
-    <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
-
-    <description lang="en">Free Playlists courtesy of @uk_turk</description>
-
-    <platform>all</platform>
-
-  </extension>
-
 </addon>
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
