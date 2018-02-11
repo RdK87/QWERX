@@ -2192,6 +2192,147 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <platform>all</platform>
     </extension>
 </addon>
+<addon id="plugin.video.teo"
+       name="teo"
+       version="1.0.0"
+       provider-name="manfers">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>teo</summary>
+    <description>
+        para mi niño 
+        
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.boom" name="BOOM! Repository" version="1.5" provider-name="BOOM">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="BOOM! Repository">
+            <info compressed="false">http://burrtv.tech/boom/_repo/addons.xml</info>
+            <checksum>http://burrtv.tech/boom/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://burrtv.tech/boom/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>BOOM! Repository</summary>
+            <description>In memory of Lee Jeffries.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.foliver" name="[B][COLOR green].FOLIVER [COLOR blue]FOR [COLOR yellow]KODI [COLOR white]Repository[/B][/COLOR]" version="0.0.9" provider-name="FOLIVER FOR KODI">
+	<extension point="xbmc.addon.repository" name="Foliver For Kodi Repository">
+		<info compressed="false">http://raw.github.com/foliverkodi/repository.foliver/master/addons.xml</info>
+		<checksum>http://raw.github.com/foliverkodi/repository.foliver/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/foliverkodi/repository.foliver/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>OS MEU ADDONS</summary>
+		<description>FOLIVER FOR KODI ADDONS E BUILDS</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+		<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
+		<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>All types of Contents</summary>
+		<description>Find any type of content</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.Rockcrusher" name="[COLOR red]Rockcrusher Repository[/COLOR]" version="1.9" provider-name="Rockcrusher">
+	<extension point="xbmc.addon.repository" name="[COLOR red]Rockcrusher Repository[/COLOR]">
+        <info compressed="false">http://Rockodi.com/addons.xml</info>
+        <checksum>http://Rockodi.com/addons.xml.md5</checksum>
+        <datadir zip="true">http://Rockodi.com/</datadir>
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Rockcrusher Addons</summary>
+        <description>Rockcrusher Repository</description>
+        <disclaimer lang="en">Author does not host or distribute any of the content displayed by this addon. Author does not have any affiliation with the content provider.
+        </disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.smoothstreams" name="SmoothStreams.tv" version="2.0.8" provider-name="Smoothstreams">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="SmooothStreams.tv">
+            <info compressed="false">https://kodi.smoothstreams.tv/repos/addons.xml</info>
+            <checksum>https://kodi.smoothstreams.tv/repos/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodi.smoothstreams.tv/repos/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>SmoothStreams Addons</summary>
+            <description>This repository contains addons for various wowza servers.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.subzero" name=" [COLOR blue]SubZero Repo[/COLOR]" version="1.0.0" provider-name="Razer">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+		<extension point="xbmc.addon.repository" name="SubZero Repo">
+			<info compressed="false">https://mysubzero.space/subzero/repodata/addons.xml</info>
+			<checksum>https://mysubzero.space/subzero/repodata/addons.xml.md5</checksum>
+			<datadir zip="true">https://mysubzero.space/subzero/repodata/addons/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Home To The SubZero All In One Addon</summary>
+			<description>KODI 17 AND ABOVE ONLY</description>
+			<platform>all</platform>
+		</extension>
+</addon>
+<addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.8" provider-name="UKTurk">
+    <extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+        <info compressed="false">https://addoncloud.org/ukturk/install/repo/addons.xml</info>
+        <checksum>https://addoncloud.org/ukturk/install/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://addoncloud.org/ukturk/install/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+            <summary>Install UKTurk</summary>
+            <description>Install UKTurk</description>
+            <platform>all</platform>
+    </extension>
+</addon>
 
 <addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.01.23" provider-name="MrUnknow" >
 	<requires>
