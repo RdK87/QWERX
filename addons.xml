@@ -2319,7 +2319,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.01.23" provider-name="MrUnknow" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.02.18" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
@@ -2328,7 +2328,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="plugin.video.playlistLoader" optional="true" />
 		<import addon="plugin.program.super.favourites" optional="true" />
-		<import addon="script.module.urlresolver" />
+		<import addon="script.module.resolveurl" />
 		<import addon="script.specto.media" />
 		<import addon="script.fanfilm.metadata" />
 	</requires>
