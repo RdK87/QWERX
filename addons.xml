@@ -2050,7 +2050,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.1.2" provider-name="IlluminatiTemple">
+<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.1.6" provider-name="IlluminatiTemple">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -2066,15 +2066,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		    <datadir zip="true">http://theunjudged.com/ATrain/repo/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://gitlab.com/TeamUniversal/modules4all/raw/master/addons.xml</info>
-			<checksum>https://gitlab.com/TeamUniversal/modules4all/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://gitlab.com/TeamUniversal/modules4all/raw/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-		</dir>	    	
+  			<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
+  			<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
+  			<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+ 		</dir>   	
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Home of 3rd party addons</summary>
