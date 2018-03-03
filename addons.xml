@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="repository.qwer" name="[I][COLOR=red]QWER[/COLOR][/I] Repository" provider-name="QWER" version="0.0.1">
+	<addon id="repository.qwerx" name="[I][COLOR=red]QWER[/COLOR][/I] Repository" provider-name="QWER" version="0.0.2">
   <extension point="xbmc.addon.repository">
     <info>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://github.com/meserak86/QWERX/raw/master/repository.qwer</datadir>
+    <checksum>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/meserak86/QWERX/master/qwer</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-  <import addon="repository.cherrytv" version="1.2.4"/>
     <summary lang="en">qwer Repository</summary>
     <description lang="en">"qwer-zakaz rozpowszechniania.</description>
 	<disclaimer lang="en"> repo Kodi
