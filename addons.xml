@@ -16,7 +16,22 @@
     <platform>all</platform>
   </extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8"?>
+	
+<addon id="plugin.program.QWERX" name="QWER WIZARD" version="1.1.1" provider-name="QWER">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">QWER WIZARD</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+	<news></news>
+  </extension>
+</addon>
     <addon id="repository.GenTec" name="[COLOR red]Gen[/COLOR][COLOR white]Tec Repo[/COLOR][COLOR blue]sitory[/COLOR]" version="1.2.8" provider-name="Thunder">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
