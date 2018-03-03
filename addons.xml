@@ -927,7 +927,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<platform>all</platform>
 		</extension>
 </addon>
-<addon id="plugin.program.QWERZ" name="QWER Wizard" version="1.0.1" provider-name="QWER">
+<addon id="plugin.program.QWERPACKS" name="QWER PACKS" version="1.0.1" provider-name="QWER">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -935,8 +935,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>program executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-		<summary lang="en">QWERZ</summary>
-		<description lang="en">Aeon NOX + best addons+PL</description>
+		<summary lang="en">QWER addons packs</summary>
+		<description lang="en"></description>
 		<disclaimer lang="en">Note: we are not responsible or have any influence to the content and their availability from Kodi Add-ons</disclaimer>
 		<platform>all</platform>
 		<facebook>xxx</facebook>
