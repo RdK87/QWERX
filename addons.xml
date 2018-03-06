@@ -2491,4 +2491,163 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="plugin.video.ekstraklasa" name="Ekstraklasa" version="1.0" provider-name="GalAnonim">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.15"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pl">Mecze ekstraklasy z dailymotion i nie tylko</summary>
+    <description lang="en">Ekstraklasa,</description>
+	<disclaimer lang="en">Wtyczka tworzona na użytek prywatny, autor nie odpowiada za jej nieodpowienie wykorzystywanie oraz rozpowszechnianie! Wszystkie treści multimedialne są własnością stron z odczytaną zawartością! Kod pochodzi od RamicSPA</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  <news>
+ </news>
+  </extension>
+</addon>
+	
+<addon id="plugin.video.kreskowki"
+version="1.0"
+name="Kreskowki"
+provider-name="GalAnonim">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.urlresolver" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Kreskowki Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z kreskówkami</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością KreskowkaZone. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
+  <assets>
+    <icon>icon.jpg</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>Pierwsza wersja :)</news>
+</extension>
+</addon>
+	
+<addon id="plugin.video.montypython"
+version="1.0"
+name="MontyPython"
+provider-name="GalAnonim">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.urlresolver" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">MontyPython Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z odcinkami MontyPython</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością Monty-Python.org</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+  </assets>
+  <news>Pierwsza wersja :)</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.sport365.live" name="Sport365" version="1.0" provider-name="GalAnonim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.cronxbmc" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sport365</summary>
+    <description lang="en">Sport365</description>
+    <disclaimer lang="en">Wtyczka tworzona na użytek prywatny, autor nie odpowiada za jej nieodpowienie wykorzystywanie oraz rozpowszechnianie! Wszystkie treści multimedialne są własnością strony sport365.live! Kod pochodzi od RamicSPA</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+  </assets>
+  <news>
+   Pierwsza wersja :)
+  </news>    
+  </extension>
+</addon>
+	
+<addon id="plugin.video.strefadb"
+version="1.0"
+name="StrefaDB"
+provider-name="GalAnonim">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.urlresolver" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">StrefaDB Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z odcinkami Dragon Ball</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością strefadb.pl</disclaimer>
+  <assets>
+    <icon>icon.jpg</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+  </assets>
+  <news>Pierwsza wersja :)</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.webcamera"
+version="1.1"
+name="Kamerki online"
+provider-name="Nieznany">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Kamerki Online Plugin Wideo</summary>
+  <description lang="en_GB">Wtyczka tworzona na użytek prywatny, autor nie odpowiada za jej niedowzolone wykorzystywanie oraz rozpowszechnianie!</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news></news>
+</extension>
+</addon>
+	
+
+
 </addons>
