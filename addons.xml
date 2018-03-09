@@ -2660,7 +2660,30 @@ provider-name="Nieznany">
   <news></news>
 </extension>
 </addon>
-	
+
+	<addon id="plugin.video.anime"
+version="1.0"
+name="Anime"
+provider-name="GalAnonim">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.resolveurl" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Anime Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z anime</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością AnimeZone. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>pierwsza wersja</news>
+</extension>
+</addon>
 
 
 </addons>
