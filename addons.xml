@@ -2637,6 +2637,24 @@ provider-name="Nieznany">
 </extension>
 </addon>
 
+<addon id="plugin.video.m3uloader" name="Playlist m3u" version="0.0.4" provider-name="    ">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Playlist m3u</summary>
+    <summary lang="he">Playlist m3u</summary>
+    <description lang="en">Playlist m3u</description>
+    <description lang="he">Playlist m3u</description>
+    <platform>all</platform>
+	<news>
+	</news>
+  </extension>
+</addon>
+	
 <addon 
     id="plugin.video.TVP.pl" 
     name="TVP.pl" 
