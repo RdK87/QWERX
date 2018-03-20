@@ -2707,5 +2707,22 @@ provider-name="GalAnonim">
 </extension>
 </addon>
 
-
+<addon id="plugin.video.goldvodtv2" version="1.0.0" name="GOLDVODTV2" provider-name="GoldVodTV">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>GoldVOD.tv - movies, series, cabarets online</summary>
+		<summary lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</summary>
+		<description>GoldVOD.tv - movies, series, cabarets online</description>
+		<description lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</description>
+		<disclaimer>GoldVOD.tv - movies, series, cabarets online</disclaimer>
+		<disclaimer lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
