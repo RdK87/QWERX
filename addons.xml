@@ -2513,7 +2513,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </addon>
 	
 <addon id="plugin.video.kreskowki"
-version="1.0"
+version="1.2"
 name="Kreskowki"
 provider-name="GalAnonim">
 <requires>
@@ -2532,7 +2532,7 @@ provider-name="GalAnonim">
     <icon>icon.jpg</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Pierwsza wersja :)</news>
+  <news>rankingi</news>
 </extension>
 </addon>
 	
@@ -2592,7 +2592,7 @@ provider-name="GalAnonim">
 </addon>
 	
 <addon id="plugin.video.strefadb"
-version="1.1"
+version="1.2"
 name="StrefaDB"
 provider-name="GalAnonim">
 <requires>
@@ -2605,13 +2605,13 @@ provider-name="GalAnonim">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">StrefaDB Plugin Wideo</summary>
-  <description lang="en_GB">Plugin z odcinkami Dragon Ball</description>
+  <description lang="en_GB">Plugin z odcinkami Dragon Ball. Aby obejrzeć treści wideo należy założyć konto na strefadb.pl</description>
   <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością strefadb.pl</disclaimer>
   <assets>
     <icon>icon.jpg</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Zmiana na resolverurl</news>
+  <news>cookies fix</news>
 </extension>
 </addon>
 
