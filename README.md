@@ -5,6 +5,9 @@
 Nieoficjalne repozytorium dodatków wymaga w programie KODI włączenia możliwośći instalacji z nieznanych źródł. 
 Zapoznaj się z zawartą tam informacją!
 
+WTYCZKI ZAWARTE W REPOZYTORIUM SĄ TAK WŁAŚCIWIE SILNIKAMI PRZESZUKUJĄCYMI I PORZĄDKUJĄCYMI ZASOBY(TRZECICH) STRON INTERNETOWYCH
+OFERUJĄCYCH DOSTĘP DO PLIKÓW, WTYCZKI NIE GROMADZĄ I NIE PRZECHOWUJĄ ŻADNYCH RODZAJÓW DANYCH 
+
 Moje repozytorium to zbiór darmowych wtyczek dostępnych powszechnie w internecie, 
 jest przeznaczone wyłącznie na użytek prywatny i nie komercyjny(NIKT NIE MOŻE CI KAZAĆ ZA NIE ZAPŁACIĆ),
 zawartość - wtyczki i repozytoria są wytworem osób trzecich. Jako autor repo jedynie zebrałem ogólnie dostępne materiały
