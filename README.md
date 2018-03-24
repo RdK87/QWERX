@@ -7,14 +7,14 @@ Zapoznaj się z zawartą tam informacją!
 
 Moje repozytorium to zbiór darmowych wtyczek dostępnych powszechnie w internecie, 
 jest przeznaczone wyłącznie na użytek prywatny i nie komercyjny(NIKT NIE MOŻE CI KAZAĆ ZA NIE ZAPŁACIĆ),
-zawartość - wtyczki i repozytoria są wytworem osób trzecich. Jako autor repo jedynie zabrałem ogólnie dostępne materiały
-Jeśli nie posiadasz uprawnień do zawartości udostępnianej przez wtyczki to nie masz powodu by je instalować.
+zawartość - wtyczki i repozytoria są wytworem osób trzecich. Jako autor repo jedynie zebrałem ogólnie dostępne materiały
+dzięki google. Jeśli nie posiadasz uprawnień do zawartości udostępnianej przez wtyczki to nie masz powodu by je instalować.
 AUTOR REPOZYTORIUM NIE PONOSI ŻADNEJ ODPOWIEDZIALNOŚCI ZA SZKODY WYNIKŁE Z UŻYTKOWANIA ELEMANTÓW W NIM ZAWARTYCH
 (INSTALUJESZ NA WŁĄSNĄ ODPOWIEDZIALNOŚĆ)
 Repozytorium nie zwiera żadnego kontenu chronionego prawami autorskimi.
 (patrz na info każdej wtyczki/repo przed zainstalowaniem o ile autor je umieścił).
 
-REPOZYTORIUM POWSTAŁO TYLKO NA POTRZEBY WYGODY UŻYTKOWNIKÓW W RAMACH WALKI Z PROCEDEREM SPRZEDAWANIA PŁATNYCH BUILDÓW
+REPOZYTORIUM POWSTAŁO TYLKO NA POTRZEBY WYGODY UŻYTKOWNIKÓW ORAZ W RAMACH WALKI Z PROCEDEREM SPRZEDAWANIA PŁATNYCH BUILDÓW.
 TYLKO OD MOJEGO WIDZI MI SIĘ BĘDZIE ZALEŻEĆ JEGO ZAWARTOŚĆ (EWENTUALNIE JAK KTOŚ ŁADNIE O COŚ POPROSI, MOŻE SIĘ ZGODZĘ)
 
 
