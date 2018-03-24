@@ -2513,12 +2513,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </addon>
 	
 <addon id="plugin.video.kreskowki"
-version="1.2"
+version="1.3"
 name="Kreskowki"
 provider-name="GalAnonim">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
-  <import addon="script.module.urlresolver" />
+  <import addon="script.module.resolveurl" />
   <import addon="script.module.requests"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
@@ -2532,7 +2532,7 @@ provider-name="GalAnonim">
     <icon>icon.jpg</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>rankingi</news>
+  <news>Poprawilem nazwy odcinkow :)</news>
 </extension>
 </addon>
 	
