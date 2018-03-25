@@ -2447,7 +2447,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>	
 	
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.02.18" provider-name="MrUnknow" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.03.24" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
