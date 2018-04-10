@@ -2447,44 +2447,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>	
 	
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.09" provider-name="MrUnknow" >
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.metahandler" />
-		<import addon="script.pair" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="plugin.video.playlistLoader" optional="true" />
-		<import addon="plugin.program.super.favourites" optional="true" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.specto.media" />
-		<import addon="script.fanfilm.metadata" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="pl">FanFilm</summary>
-		<description lang="pl">  Wtyczka została odnowiona przez Cherry TEAM. 
-		Dodany Playlist Loader pod dowiązanie TV Player. 
-		Utworzenie folderu \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 spowoduje dowiązanie go do przejścia FanFilm SKontent. 
-		Utworzenie folderu FanFilm2 w SuperFolder spowoduje dowiązanie go do przejścia My Folder. Poprawiony TRAKT,</description>
-		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<summary lang="en">FanFilm</summary>
-		<description lang="en">Addon remastered by CHERRY TEAM. 
-		Playlist Lodaer added on TV Player. 
-		Making \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 will make shortcut to FanFilm SKontent. 
-		Making FanFilm2 folder in superfavorites will make shortcut to My Folder. Repaired TRAKT</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<forum>https://github.com/meserak86/QWERX/issues</forum>
-		<source>http://filmkodi.com/repository/</source>
-		<website>https://github.com/meserak86/QWERX</website>
-		<platform>all</platform>
-	</extension>
-</addon>
+
 	
 <addon id="plugin.video.ekstraklasa" name="Ekstraklasa" version="1.0" provider-name="GalAnonim">
   <requires>
@@ -2766,6 +2729,45 @@ provider-name="GalAnonim">
 	<extension point="xbmc.addon.metadata">
 		<summary>Metadata for the fanfilm Addon</summary>
 		<description>Metadata for fanfilm are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.10" provider-name="MrUnknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests"/>
+		<import addon="script.module.metahandler" />
+		<import addon="script.pair" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="plugin.video.playlistLoader" optional="true" />
+		<import addon="plugin.program.super.favourites" optional="true" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.specto.media" />
+		<import addon="script.fanfilm.metadata" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="pl">FanFilm</summary>
+		<description lang="pl">  Wtyczka została odnowiona przez Cherry TEAM. 
+		Dodany Playlist Loader pod dowiązanie TV Player. 
+		Utworzenie folderu \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 spowoduje dowiązanie go do przejścia FanFilm SKontent. 
+		Utworzenie folderu FanFilm2 w SuperFolder spowoduje dowiązanie go do przejścia My Folder. Poprawiony TRAKT,</description>
+		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<summary lang="en">FanFilm</summary>
+		<description lang="en">Addon remastered by CHERRY TEAM. 
+		Playlist Lodaer added on TV Player. 
+		Making \userdata\addon_data\plugin.program.super.favourites\Super Favourites\FanFilm1 will make shortcut to FanFilm SKontent. 
+		Making FanFilm2 folder in superfavorites will make shortcut to My Folder. Repaired TRAKT</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum>https://github.com/meserak86/QWERX/issues</forum>
+		<source>http://filmkodi.com/repository/</source>
+		<website>https://github.com/meserak86/QWERX</website>
 		<platform>all</platform>
 	</extension>
 </addon>
