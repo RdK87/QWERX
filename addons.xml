@@ -2733,7 +2733,7 @@ provider-name="GalAnonim">
 	</extension>
 </addon>
 	
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.11" provider-name="MrUnknow" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.12" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
