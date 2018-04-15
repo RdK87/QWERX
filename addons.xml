@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="repository.qwerx" name="[I][COLOR=red]QWER[/COLOR][/I] Repository" provider-name="QWER" version="0.0.2">
+	<addon id="repository.qwerx" name="[I][COLOR=red]QWER[/COLOR][/I] Repository" provider-name="QWER" version="0.0.3">
   <extension point="xbmc.addon.repository">
     <info>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/meserak86/QWERX/master/addons.xml</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/meserak86/QWERX/master/qwer</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">qwer Repository</summary>
-    <description lang="en">"qwer-zakaz rozpowszechniania.</description>
+    <summary lang="en">Repozytorium QWERX</summary>
+		<summary lang="pl">Repository QWERX</summary>
+		<description lang="en">For more information visit [COLOR cyan][B]https://github.com/meserak86/QWERX[/B][/COLOR] site.</description>
+		<description lang="pl">Zapraszamy na [COLOR cyan][B]https://github.com/meserak86/QWERX[/B][/COLOR]</description>
 	<disclaimer lang="en"> repo Kodi
 </disclaimer>
     <website></website>
     <platform>all</platform>
+	<source>https://github.com/meserak86/QWERX</source>
+		<email>meserak@o2.pl</email>
   </extension>
 </addon>
 	
