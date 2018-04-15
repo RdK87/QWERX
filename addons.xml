@@ -2727,14 +2727,14 @@ provider-name="GalAnonim">
 	</extension>
 </addon>	
 	
-<addon id="plugin.video.fanfilm.lite" name="FanFilm Lite - MrKnow" version="2018.04.10" provider-name="MrUnknow + T">
+<addon id="plugin.video.fanfilm.lite" name="FanFilm Lite - MrKnow" version="2018.04.15" provider-name="MrUnknow + T">
         <requires>
                 <import addon="xbmc.python" version="2.1.0" />
                 <import addon="script.module.requests"/>
                 <import addon="script.module.metahandler" />
                 <import addon="plugin.video.youtube" optional="true" />
                 <import addon="script.module.resolveurl" />
-                <import addon="script.specto.media" />
+                <import addon="script.fanfilm.media" />
                 <import addon="script.fanfilm.lite.metadata" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="default.py">
@@ -2752,9 +2752,6 @@ provider-name="GalAnonim">
                 </description>
                 <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
                 </disclaimer>
-                <forum>https://github.com/meserak86/QWERX/issues</forum>
-                <source>http://filmkodi.com/repository/</source>
-                <website>https://github.com/meserak86/QWERX</website>
                 <platform>all</platform>
         </extension>
 </addon>
@@ -2771,8 +2768,7 @@ provider-name="GalAnonim">
 		<platform>all</platform>
 	</extension>
 </addon>
-	
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.15" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
