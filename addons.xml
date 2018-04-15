@@ -635,23 +635,6 @@ Please visit tvaddons.ag - addon releases forum for support.</description>
 	</extension>
 </addon>
 
-<addon id="repository.Firestickplusman" name="Firestickplusman Addons" version="0.1.2" provider-name="Firestickplusman">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Firestickplusman Addons">
-            <info compressed="false">http://fspmkodi.com/_repo/addons.xml</info>
-            <checksum>http://fspmkodi.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://fspmkodi.com/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Firestickplusman addon repo</summary>
-            <description>Firestickplusman addon repo to in the best and update addons from Firestickplusman.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.HalowTV" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="6.0.0" provider-name="HalowRepo">
 	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
         <info compressed="false">https://raw.githubusercontent.com/HalowTV/HalowTV/master/zips/addons.xml</info>
@@ -892,33 +875,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="repository.zt" name="[COLORred]Z[/COLOR]ero [COLORwhite]T[/COLOR]olerance Repository" version="5.0" provider-name="Team ZT">
-		<extension point="xbmc.addon.repository" name="Bla Bla Repository">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-	</dir>
-	<dir>
-	<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-    </dir>
-	<dir>
-		<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-		<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-		<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-	</dir>
-			<info compressed="false">http://repo.zerotolerance.gq/addons.xml</info>
-			<checksum>http://repo.zerotolerance.gq/addonsmd5.txt</checksum>
-			<datadir zip="true">http://repo.zerotolerance.gq/addons/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary></summary>
-			<description></description>
-			<platform>all</platform>
-		</extension>
-</addon>
+
 <addon id="plugin.program.QWERPACKS" name="QWER PACKS" version="1.0.1" provider-name="QWER">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1627,18 +1584,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 	
-<addon id="repository.uwc" name="Ultimate Whitecream repository" version="1.0" provider-name="holisticdioxide">
-    <extension point="xbmc.addon.repository" name="Ultimate Whitecream repository">
-        <info compressed="false">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/holisticdioxide/uwc-repo/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Ultimate Whitecream repository</summary>
-        <description>Ultimate Whitecream repository</description>
-        <platform>all</platform>
-    </extension>
-</addon>
 <addon id="script.fanfilm.metadata" version="1.0.4" name="FanFilm Metadata" provider-name="fanfilm">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -1968,87 +1913,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="repository.illuminati" name="[COLORmaroon]Illu[COLORslategray]min[COLORdarkblue]ati[/COLOR]" version="1.1.7" provider-name="IlluminatiTemple">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-	<extension point="xbmc.addon.repository" name="Illuminati">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-		    <info compressed="false">http://theunjudged.com/ATrain/repo/addons.xml</info>
-		    <checksum>http://theunjudged.com/ATrain/repo/addons.xml.md5</checksum>
-		    <datadir zip="true">http://theunjudged.com/ATrain/repo/</datadir>
-		</dir>
-		<dir>
-  			<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-  			<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-  			<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
- 		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-		</dir>      	
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Home of 3rd party addons</summary>
-		<description lang="en">The developers do not own any content found within these addons. They are in no way affiliated with Kodi or XBMC.</description>
-            <platform>all</platform>
-	</extension>
-</addon>
-<addon id="repository.judgement" name="Judgement Repo" version="2.3" provider-name="Judgement">
-	<extension point="xbmc.addon.repository" name="Judgement">
-	<dir>
-		<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-		<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-		<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
-		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
-	</dir>
-	<dir>
-      <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-<summary lang="en">
-The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. 
-The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-The search process is the same as a search engine with no data actual hosted by the developer.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</summary>
-<description lang="en">
-The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. 
-The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-The Search process is the same as a search engine with no data actual hosted by the developer.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</description>
-<disclaimer lang="en">
-The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. 
-The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-The Search process is the same as a search engine with no data actual hosted by the developer.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</disclaimer>
-<news>
-The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. 
-The author does not host or own any content found within this addon.
-The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
-The Search process is the same as a search engine with no data actual hosted by the developer.
-This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
-</news>
-</extension>
-</addon>
+
+
 <addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="3.1" provider-name="Maverick TV">
 <extension point="xbmc.addon.repository" name="[COLOR lime]MaverickTV Repo[/COLOR]">
 	<dir>
@@ -2146,22 +2012,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.boom" name="BOOM! Repository" version="1.5" provider-name="BOOM">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="BOOM! Repository">
-            <info compressed="false">http://burrtv.tech/boom/_repo/addons.xml</info>
-            <checksum>http://burrtv.tech/boom/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://burrtv.tech/boom/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>BOOM! Repository</summary>
-            <description>In memory of Lee Jeffries.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
+
 <addon id="repository.foliver" name="[B][COLOR green].FOLIVER [COLOR blue]FOR [COLOR yellow]KODI [COLOR white]Repository[/B][/COLOR]" version="0.0.9" provider-name="FOLIVER FOR KODI">
 	<extension point="xbmc.addon.repository" name="Foliver For Kodi Repository">
 		<info compressed="false">http://raw.github.com/foliverkodi/repository.foliver/master/addons.xml</info>
@@ -2222,21 +2073,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
             <platform>all</platform>
     </extension>
 </addon>
-<addon id="repository.subzero" name=" [COLOR blue]SubZero Repo[/COLOR]" version="1.0.0" provider-name="Razer">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-		<extension point="xbmc.addon.repository" name="SubZero Repo">
-			<info compressed="false">https://mysubzero.space/subzero/repodata/addons.xml</info>
-			<checksum>https://mysubzero.space/subzero/repodata/addons.xml.md5</checksum>
-			<datadir zip="true">https://mysubzero.space/subzero/repodata/addons/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Home To The SubZero All In One Addon</summary>
-			<description>KODI 17 AND ABOVE ONLY</description>
-			<platform>all</platform>
-		</extension>
-</addon>
 <addon id="repository.ukturk" name="UKTurk Addon Repository" version="1.0.8" provider-name="UKTurk">
     <extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
     <dir>
@@ -2274,18 +2110,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 	
-<addon id="repository.Beaubrepo" name="Beau B repository" version="1.3" provider-name="Beau b">
-	<extension point="xbmc.addon.repository" name="Beau B repository">
-		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml</info>
-		<checksum>http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml.md5</checksum>
-		<datadir zip="true">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
+
 <addon id="repository.CanalNereo" name="[COLOR lime]Repo Canal Nereo[/COLOR] Repo" version="1.0.2" provider-name="Canal Nereo">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml</info>
