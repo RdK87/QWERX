@@ -2693,6 +2693,18 @@ provider-name="GalAnonim">
 		<platform>all</platform>
 	</extension>
 </addon>
+	
+<addon id="script.fanfilm.media" version="2018.04.14" name="FanFilm Themepak" provider-name="T" >
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the FanFilm Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
 	<addon id="plugin.video.meczreplay" name="MeczReplay" version="0.0.3" provider-name="panee">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" /> 
@@ -2760,17 +2772,18 @@ provider-name="GalAnonim">
 	</extension>
 </addon>
 	
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.12" provider-name="MrUnknow" >
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.15" provider-name="MrUnknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.metahandler" />
-		<import addon="script.pair" />
+		<import addon="script.pair" optional="true" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="plugin.video.playlistLoader" optional="true" />
 		<import addon="plugin.program.super.favourites" optional="true" />
 		<import addon="script.module.resolveurl" />
-		<import addon="script.specto.media" />
+        <import addon="script.fanfilm.media" />
 		<import addon="script.fanfilm.metadata" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -2798,4 +2811,5 @@ provider-name="GalAnonim">
 		<platform>all</platform>
 	</extension>
 </addon>
+
 </addons>
