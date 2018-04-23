@@ -2413,11 +2413,12 @@ provider-name="GalAnonim">
 	</extension>
 </addon>	
 	
-<addon id="plugin.video.fanfilm.lite" name="FanFilm Lite - MrKnow" version="2018.04.15" provider-name="MrUnknow + T">
+<addon id="plugin.video.fanfilm.lite" name="FanFilm Lite - MrKnow" version="2018.04.23" provider-name="MrUnknow + T">
         <requires>
                 <import addon="xbmc.python" version="2.1.0" />
                 <import addon="script.module.requests"/>
                 <import addon="script.module.metahandler" />
+                <import addon="script.module.beautifulsoup4"/>
                 <import addon="plugin.video.youtube" optional="true" />
                 <import addon="script.module.resolveurl" />
                 <import addon="script.fanfilm.media" />
