@@ -2480,6 +2480,27 @@ provider-name="GalAnonim">
 </extension>
 </addon>
 	
+<addon id="plugin.video.BajkiPoPolsku"
+version="1.0"
+name="Bajki po polsku"
+provider-name="GalAnonim">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.resolveurl" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">BajkiPoPolsku Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z BajkiPoPolsku</description>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
+	
 <addon id="plugin.video.musictv"
        name="MusicTV"
        version="1.0.5"
