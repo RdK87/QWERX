@@ -2167,7 +2167,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 	
 <addon id="plugin.video.kreskowki"
-version="1.3"
+version="1.4"
 name="Kreskowki"
 provider-name="GalAnonim">
 <requires>
@@ -2186,7 +2186,7 @@ provider-name="GalAnonim">
     <icon>icon.jpg</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Poprawilem nazwy odcinkow :)</news>
+  <news>Sortowanie odcinków</news>
 </extension>
 </addon>
 	
