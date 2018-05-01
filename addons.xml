@@ -2151,7 +2151,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 	
 <addon id="plugin.video.kreskowki"
-version="1.4"
+version="1.5"
 name="Kreskowki"
 provider-name="GalAnonim">
 <requires>
