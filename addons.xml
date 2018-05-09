@@ -2613,7 +2613,10 @@ provider-name="GalAnonim">
     <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.liveresolver" />
-	 </requires>
+	
+
+
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video audio</provides>
   </extension>
