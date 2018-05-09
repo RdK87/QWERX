@@ -2613,6 +2613,16 @@ provider-name="GalAnonim">
     <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" />
     <import addon="script.module.liveresolver" />
+	 </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MusicTV for XBMC/Kodi!</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
 	
 <addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.2.1" provider-name="Twinther, Mods-Kodi">
 	<requires>
@@ -2640,17 +2650,6 @@ provider-name="GalAnonim">
 		<forum>http://mods-kodi.pl/forum</forum>
 		<email>site@mods-kodi.pl</email>
 	</extension>
-</addon>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">MusicTV for XBMC/Kodi!</summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.04.26" provider-name="MrUnknow" >
