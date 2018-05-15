@@ -2230,7 +2230,7 @@ provider-name="GalAnonim">
 </addon>
 	
 <addon id="plugin.video.strefadb"
-version="1.4"
+version="1.5"
 name="StrefaDB"
 provider-name="GalAnonim">
 <requires>
@@ -2249,7 +2249,7 @@ provider-name="GalAnonim">
     <icon>icon.jpg</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>fix</news>
+  <news>fix2</news>
 </extension>
 </addon>
 
