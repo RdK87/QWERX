@@ -2175,12 +2175,12 @@ provider-name="GalAnonim">
 </addon>
 	
 <addon id="plugin.video.montypython"
-version="1.0"
+version="1.1"
 name="MontyPython"
 provider-name="GalAnonim">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
-  <import addon="script.module.urlresolver" />
+  <import addon="script.module.resolveurl" />
   <import addon="script.module.requests"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
@@ -2193,11 +2193,8 @@ provider-name="GalAnonim">
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.png</fanart>
-    <screenshot>resources\screenshot-01.jpg</screenshot>
-    <screenshot>resources\screenshot-02.jpg</screenshot>
-    <screenshot>resources\screenshot-03.jpg</screenshot>    
   </assets>
-  <news>Pierwsza wersja :)</news>
+  <news>resolveurl</news>
 </extension>
 </addon>
 
@@ -2378,7 +2375,7 @@ provider-name="GalAnonim">
 	
 	
 <addon id="plugin.video.dokumentalne.net"
-version="0.2"
+version="0.3"
 name="Dokumentalne.net"
 provider-name=":)">
 <requires>
@@ -2394,13 +2391,14 @@ provider-name=":)">
   <description lang="en_GB">Plugin z Dokumentalne.net</description>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news>opisy i szukajka</news>
 </extension>
 </addon>
 	
 <addon id="plugin.video.filmydokumentalne.eu"
-version="0.1"
+version="0.2"
 name="Filmydokumentalne.eu"
 provider-name=":)">
 <requires>
@@ -2416,6 +2414,7 @@ provider-name=":)">
   <description lang="en_GB">Plugin z filmydokumentalne.eu</description>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news></news>
 </extension>
@@ -2446,7 +2445,7 @@ provider-name=":)">
 	
 
 <addon id="plugin.video.FootballPowtorki"
-version="0.2"
+version="0.3"
 name="Powtórki i skróty meczów"
 provider-name=":)">
 <requires>
@@ -2462,6 +2461,7 @@ provider-name=":)">
   <description lang="en_GB">Plugin z Football</description>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news></news>
 </extension>
@@ -2534,8 +2534,8 @@ provider-name=":)">
 	</extension>
 </addon>
 
-	<addon id="plugin.video.kabarety"
-version="1.0"
+<addon id="plugin.video.kabarety"
+version="1.1"
 name="Kabarety"
 provider-name="GalAnonim">
 <requires>
@@ -2552,13 +2552,47 @@ provider-name="GalAnonim">
   <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością tworzymyhistorie.pl. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news></news>
 </extension>
 </addon>
 	
+<addon id="plugin.video.hbogopl" name="HBO GO Polska" version="0.7.6" provider-name="c0d34fun">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary lang="pl">HBO GO Polska</summary>
+  	<description lang="pl">Oglądaj HBO GO w Kodi!</description>
+  	<disclaimer lang="pl">To nie jest oficjalna wtyczka! Jeśli oficjalna aplikacja jest dostępna dla twojej platformy, użyj jej zamiast tej wtyczki. Wszelkie prawa do treści są zastrzeżone przez HBO® Europe.</disclaimer>
+  	<summary lang="en">HBO GO Poland</summary>
+  	<description lang="en">Watch HBO GO in Kodi!</description>
+  	<disclaimer lang="en">This is not an official plugin! If the official application is available for your platform, use it instead of this plugin. All rights to the content are reserved by HBO® Europe.</disclaimer>
+    <language>pl</language>
+  	<platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodiwpigulce.pl/Watek-HBO-GO-Polska</forum>
+  	<website>https://www.hbogo.pl</website>
+  	<assets>
+	   <icon>resources/icon.png</icon>
+       <fanart>resources/fanart.jpg</fanart>
+       <screenshot>resources/screenshot-01.jpg</screenshot>
+       <screenshot>resources/screenshot-02.jpg</screenshot>
+       <screenshot>resources/screenshot-03.jpg</screenshot>
+       <screenshot>resources/screenshot-04.jpg</screenshot>
+       <screenshot>resources/screenshot-05.jpg</screenshot>
+       <screenshot>resources/screenshot-06.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
+	
 <addon id="plugin.video.BajkiOnline"
-version="1.1"
+version="1.2"
 name="Bajki online"
 provider-name="GalAnonim">
 <requires>
@@ -2574,12 +2608,13 @@ provider-name="GalAnonim">
   <description lang="en_GB">Plugin z BajkiOnline</description>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
 </addon>
 	
 <addon id="plugin.video.BajkiPoPolsku"
-version="1.1"
+version="1.2"
 name="Bajki po polsku"
 provider-name="GalAnonim">
 <requires>
@@ -2595,8 +2630,37 @@ provider-name="GalAnonim">
   <description lang="en_GB">Plugin z BajkiPoPolsku</description>
   <assets>
     <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
+</addon>
+	
+<addon id="plugin.video.eskago" name="eskaGO" version="0.0.2" provider-name="c0d34fun">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">Watch eskaGO</description>
+        <disclaimer lang="en">This is not an official plugin! If the official application is available for your
+            platform, use it instead of this plugin. All rights to the content are reserved by Grupa ZPR Media.
+        </disclaimer>
+        <summary lang="en">eskaGO</summary>
+        <description lang="en">Watch eskaGO in Kodi!</description>
+        <disclaimer lang="en">This is not an official plugin! If the official application is available for your
+            platform, use it instead of this plugin. All rights to the content are reserved by Grupa ZPR Media.
+        </disclaimer>
+        <language>pl</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>https://www.eskago.pl</website>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
 </addon>
 	
 <addon id="plugin.video.musictv"
