@@ -2421,7 +2421,7 @@ provider-name=":)">
 </addon>
 	
 <addon id="plugin.video.wbijampl"
-version="0.2"
+version="0.3"
 name="Wbijam.pl"
 provider-name=":)">
 <requires>
@@ -2439,7 +2439,7 @@ provider-name=":)">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news></news>
+  <news>fix</news>
 </extension>
 </addon>
 	
