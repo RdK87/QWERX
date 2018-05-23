@@ -2736,7 +2736,7 @@ provider-name=":)">
 </extension>
 </addon>
 	
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.2.1" provider-name="Twinther, Mods-Kodi">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.2.8" provider-name="Twinther, Mods-Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
