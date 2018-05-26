@@ -36,6 +36,23 @@
   </extension>
 </addon>
 	
+<addon id="repository.notoco" name="notoco Kodi Add-ons Repository" version="1.5" provider-name="notoco">
+    <extension point="xbmc.addon.repository" name="notoco Kodi Add-ons Repository">
+        <info compressed="false">https://raw.githubusercontent.com/notoco/ffl/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/notoco/ffl/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/notoco/ffl/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>notoco repository</summary>
+        <summary lang="pl">Repozytorium wtyczek notoco</summary>
+        <summary lang="en">Notoco addons repository</summary>
+        <description>Unofficial, private Addons repository.</description>
+        <disclaimer>Repository has non-comercial nature. Just for fun</disclaimer>
+        <disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, tworzone dla zabawy.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+	
 <addon id="repository.polishteam" name="PolishTeam_Repo" version="0.0.1" provider-name="Polish Team">
 	<extension point="xbmc.addon.repository" name="PolishTeam-Repo">
 		<info compressed="false">http://polishteam.cherrytv.webd.pl/PolishTeam/addons.xml</info>
