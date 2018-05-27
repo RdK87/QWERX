@@ -2444,7 +2444,7 @@ provider-name="GalAnonim">
 	</extension>
 </addon>
 	
-<addon id="script.fanfilm.media" version="2018.04.14" name="FanFilm Themepak" provider-name="T" >
+<addon id="script.fanfilm.media" version="2018.05.20" name="FanFilm Themepak" provider-name="G+T" >
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
