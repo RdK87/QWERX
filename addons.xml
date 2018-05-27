@@ -2334,7 +2334,7 @@ provider-name="GalAnonim">
 </addon>
 
 <addon id="plugin.video.webcamera"
-version="1.1"
+version="1.2"
 name="Kamerki online"
 provider-name="Nieznany">
 <requires>
@@ -2353,7 +2353,7 @@ provider-name="Nieznany">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news></news>
+  <news>rodo</news>
 </extension>
 </addon>
 
@@ -2402,7 +2402,7 @@ provider-name="Nieznany">
 </addon>
 	
 <addon id="plugin.video.anime"
-version="1.3"
+version="1.4"
 name="Anime"
 provider-name="GalAnonim">
 <requires>
@@ -2421,7 +2421,7 @@ provider-name="GalAnonim">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>pierwsza wersja</news>
+  <news>fix</news>
 </extension>
 </addon>
 
