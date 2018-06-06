@@ -2871,7 +2871,7 @@ provider-name=":)">
 </addon>
 
 	
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.3.1" provider-name="specialboy [COLOR gold][B]REV1[/B][/COLOR]">
+<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.3.2" provider-name="specialboy [COLOR gold][B]REV1[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
