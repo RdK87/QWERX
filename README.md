@@ -17,6 +17,9 @@ AUTOR REPOZYTORIUM NIE PONOSI ŻADNEJ ODPOWIEDZIALNOŚCI ZA SZKODY WYNIKŁE Z U�
 Repozytorium nie zwiera żadnego kontenu chronionego prawami autorskimi.
 (patrz na info każdej wtyczki/repo przed zainstalowaniem o ile autor je umieścił).
 
+#W REPO I BUILDZIE NIE MA DARMOWEJ TV# pozostawione loginy i hasła oraz listy wpisane w buildzie 
+są ogólnie dostępne w internecie lub zostały nadesłane przez urzytkownikow, ich dzialanie lub usterki nie są zalezne od nas 
+
 REPOZYTORIUM POWSTAŁO TYLKO NA POTRZEBY WYGODY UŻYTKOWNIKÓW ORAZ W RAMACH WALKI Z PROCEDEREM SPRZEDAWANIA PŁATNYCH BUILDÓW.
 TYLKO OD MOJEGO WIDZI MI SIĘ BĘDZIE ZALEŻEĆ JEGO ZAWARTOŚĆ (EWENTUALNIE JAK KTOŚ ŁADNIE O COŚ POPROSI, MOŻE SIĘ ZGODZĘ)
 
