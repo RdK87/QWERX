@@ -2842,7 +2842,7 @@ provider-name=":)">
 </addon>
 	
 
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.06.09" provider-name="G+T" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2018.06.12" provider-name="G+T" >
 <requires>
   <import addon="xbmc.python" version="2.1.0" />
   <import addon="script.module.requests"/>
@@ -2871,33 +2871,7 @@ provider-name=":)">
 </addon>
 
 	
-<addon id="script.mtvguide" name="m-TVGuide [COLOR gold][B]EPG[/B][/COLOR]" version="8.3.1" provider-name="specialboy [COLOR gold][B]REV1[/B][/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.module.elementtree" version="1.2.7"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">m-TVGuide is TVGuide by Twinther modded by Mods-Kodi. (EPG for Kodi)</summary>
-		<summary lang="pl_PL">m-TVGuide to TVGuide Twinther-a zmodyfikowane przez Mods-Kodi lecz ulepszone przez specialboy aby żyło się lepiej ;) . (EPG dla Kodi)</summary>
-		<summary lang="sv_SE">m-TVGuide är en TVGuide av Twinther samt moddat utav Mods-Kodi. (EPG för Kodi)</summary>
-		<description lang="en_GB">m-TVGuide EPG for internet TV. For more information visit http://mods-kodi.pl/</description>
-		<description lang="pl_PL">[COLOR gold][B]Zaleca się wyłączenie AKTUALIZACJI AUTOMATYCZNEJ (opcja na dole tej strone)![/B][/COLOR]</description>
-		<description lang="sv_SE">m-TVGuide EPG för internet TV. För mer information besök http://mods-kodi.pl/</description>
-		<disclaimer lang="en_GB">m-TVGuide is a modified script EPG for Kodi</disclaimer>
-		<disclaimer lang="pl_PL">m-TVGuide to zmodyfikowany skrypt EPG dla Kodi</disclaimer>
-		<disclaimer lang="sv_SE">m-TVGuide är ett modifierat EPG skript för Kodi</disclaimer>
-		<platform>all</platform>
-		<language></language>
-		<website></website>
-		<forum></forum>
-		<email></email>
-	</extension>
-</addon>
+
 	
 <addon id="script.module.elementtree"
        name="Elementtree XML parser"
