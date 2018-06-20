@@ -32,11 +32,3 @@ PROŚBY O DODANIE CZEGOŚ DO REPO PROSZĘ ZOSTAWIAĆ W ISSUES Z PRZEDROSTKIEM [R
 https://meserak86.github.io/QWERX/
 
 
-# adres do instalacji przez File Managera - tylko QWER wizard BUILD
-
-https://meserak86.github.io/QWER/
-
-# adres do instalacji przez File Managera - Kim Shiu AEON NOX SILVO ENIGMA 2 SKIN
-http://qwer.cherrytv.webd.pl/KIMSHIU/
-
-
