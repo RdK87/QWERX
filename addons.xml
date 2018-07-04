@@ -68,7 +68,8 @@ CHERRY TV nie dostarcza bezpośrednio telewizji, filmów, seriali, muzyki ani ż
     <website>https://cherrytv.webd.pl/</website>
     <platform>all</platform>
   </extension>
-</addon>
+</addon>	
+	
 	
 <addon id="repository.polishteam" name="PolishTeam_Repo" version="0.0.4" provider-name="Polish Team">
 	<extension point="xbmc.addon.repository" name="PolishTeam-Repo">
