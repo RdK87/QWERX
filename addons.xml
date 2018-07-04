@@ -2352,13 +2352,6 @@ provider-name="Nieznany">
 </addon>
 	
 
-	
-
-	
-
-
-
-	
 
 	
 <addon id="script.module.elementtree"
@@ -2375,7 +2368,7 @@ provider-name="Nieznany">
   </extension>
 </addon>
 	
-<addons>
+
 <addon id="plugin.audio.wolnelektury"
 version="0.3"
 name="Wolne Lektury"
@@ -2750,6 +2743,5 @@ provider-name="-">
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
-</addons>
 	
 </addons>
